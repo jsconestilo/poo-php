@@ -19,5 +19,4 @@ Luego abrir el navegador http://localhost:8080/
 Para ingresar a la seccion administrativa entrar en http://localhost:8080/admin, desde aqui se pueden cargar productos que van a aparecer en el front
 
 Usuario: admin
-
 Clave: admin
