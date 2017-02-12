@@ -20,7 +20,3 @@ Para ingresar a la sección administrativa entrar en http://localhost:8080/admin
 
 Usuario: admin
 Clave: admin
-
-## Documentación sobre POO en PHP
-
-[Programación orientada a objetos con PHP] (https://paper.dropbox.com/doc/Programacin-orientada-a-objetos-con-PHP-IUtGGDPkdr7o9HuzOrrsr)
