@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="/admin.php">Productos <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="/admin">Productos <span class="sr-only">(current)</span></a></li>
             </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -14,11 +14,11 @@
                     <label for="nombre" class="col-sm-2 control-label">Nombre: </label>
                     <div class="col-sm-7">
                         <input type="text" class="form-control" name="nombre" id="nombre" value="<?=$producto->getNombre()?>">
-                        <small class="help-block" style="color:orangered;"><?=$errors['nombre'] ?? ''?></small>
+                        <small class="help-block" style="color:orangered;"><?=isset($errors['nombre']) ? $errors['nombre'] : ''?></small>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="descripcion" class="col-sm-2 control-label">Password: </label>
+                    <label for="descripcion" class="col-sm-2 control-label">Descripción: </label>
                     <div class="col-sm-9">
                         <textarea name="descripcion" id="descripcion" class="form-control" rows="4"><?=$producto->getDescripcion()?></textarea>
                     </div>

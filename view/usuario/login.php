@@ -25,12 +25,12 @@
     <form class="form-signin" action="/usuario/login" method="post">
         <?= isset($errors['login']) ? '<div class="alert alert-danger" role="alert">'.$errors['login'].'</div>' : ''?>
         <label for="usuario" class="sr-only">Usuario</label>
-        <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usuario" value="<?=$_POST['usuario'] ?? ''?>" autofocus="">
-        <small class="help-block" style="color:orangered;"><?=$errors['usuario'] ?? ''?></small>
+        <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usuario" value="<?=isset($_POST['usuario']) ? $_POST['usuario'] :  ''?>" autofocus="">
+        <small class="help-block" style="color:orangered;"><?=isset($errors['usuario']) ? $errors['usuario'] : ''?></small>
 
         <label for="clave" class="sr-only">Password</label>
         <input type="password" name="clave" id="clave" class="form-control" placeholder="Clave">
-        <small class="help-block" style="color:orangered;"><?=$errors['clave'] ?? ''?></small>
+        <small class="help-block" style="color:orangered;"><?=isset($errors['clave']) ? $errors['clave'] : ''?></small>
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
     </form>

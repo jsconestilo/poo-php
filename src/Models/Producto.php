@@ -59,7 +59,7 @@ class Producto
         return $productos;
     }
 
-    public function save(int $id = null)
+    public function save($id = null)
     {
         $db = Database::getInstance();
 
