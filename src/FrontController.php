@@ -37,6 +37,6 @@ class FrontController
 
     public function run()
     {
-        call_user_func_array(array(new $this->controller, $this->action), $this->params);
+        call_user_func_array([new $this->controller, $this->action], $this->params);
     }
 }

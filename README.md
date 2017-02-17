@@ -1,4 +1,4 @@
-# POO-PHP
+# Programación orientada a objetos con PHP
 
 ## MySQL
 
@@ -19,4 +19,5 @@ Luego abrir el navegador http://localhost:8080/
 Para ingresar a la sección administrativa entrar en http://localhost:8080/admin, desde aquí se pueden cargar productos que van a aparecer en el front
 
 Usuario: admin
+
 Clave: admin

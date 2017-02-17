@@ -2,8 +2,6 @@
 
 namespace PTF\Controllers;
 
-use PTF\View;
-
 class AdminController extends AuthController
 {
 

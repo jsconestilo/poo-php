@@ -2,7 +2,6 @@
 
 namespace PTF\Controllers;
 
-use PTF\Models\Usuario;
 use PTF\View;
 use PTF\Models\Producto;
 

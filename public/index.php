@@ -10,9 +10,3 @@ use PTF\FrontController;
 
 $frontController = new FrontController;
 $frontController->run();
-
-/*use PTF\Producto;
-
-$producto = new Producto('Producto 1');
-
-var_dump($producto);*/
