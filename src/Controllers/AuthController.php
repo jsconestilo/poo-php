@@ -4,7 +4,7 @@ namespace PTF\Controllers;
 
 use PTF\Models\Usuario;
 
-class AuthController
+abstract class AuthController
 {
 
     public function __construct()

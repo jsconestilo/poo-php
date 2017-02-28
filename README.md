@@ -6,7 +6,7 @@ Es necesario importar la base de datos, le estructura de la base y el usuario pa
 
 ## PHP
 
-Funciona con PHP 7.x
+Funciona con PHP 5.x
 
 Para ejecutarlo se debe ejecutar en líneas de comando lo siguiente:
 
